@@ -16,3 +16,9 @@ End using `ctrl+c`
 Log out
 -----------
 `curl -k -d mode=193 -d username=username https://172.16.1.1:8090/logout.xml`
+
+Note
+-----------
+The url "https://172.16.1.1:8090/login.xml" should be replaced by the url of the login page you are redirected to when you try opening a website
+
+Use the part of the url you obtained till :8090 in the next two commands
